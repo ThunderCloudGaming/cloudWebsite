@@ -93,13 +93,21 @@ body {
     font-size: 30px;
   }
 
-  .flex-container2 {
-    display: flex;
-    justify-content: space-around;
-}
+  
 
-#cont-control {
-    padding-top: 50px;
+.flex-container p {
+    margin-top: 0px;
+    margin-right: 90px;
+    margin-left: 90px;
+    color: greenyellow;
+    background-color: black;
+    font-size: 15px;
+    position: relative;
+    left: 100px;
+    top: 180px;
+    border-top-left-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 
@@ -267,6 +275,20 @@ footer > p {
         background-color: rgba(191, 189, 63, 0.75);
         font-size: 15px;
 
+    }
+    .flex-container p {
+        margin-top: 0px;
+        margin-right: 90px;
+        margin-left: 90px;
+        color: greenyellow;
+        background-color: black;
+        font-size: 15px;
+        position: relative;
+        left: 100px;
+        top: 180px;
+        border-top-left-radius: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        
     }
 
      
