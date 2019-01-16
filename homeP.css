@@ -149,7 +149,22 @@ img {
 }
 
 footer {
-  text-align: center;
+  padding-top: 100px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > p {
+  display: flex;
+  -webkit-box-flex: flex;
+  color: white;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
 }
 
 @media (max-width:700px) {

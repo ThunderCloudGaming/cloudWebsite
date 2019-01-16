@@ -8,11 +8,11 @@ Date: 1.10.19
 
 
 
-.top h2{
+  .top h2{
     font-family: 'Cinzel Decorative', cursive;
+    text-decoration: none;
     color: yellow;
     font-size: 35px;
-    text-decoration: none;
   }
 
 

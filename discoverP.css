@@ -26,6 +26,7 @@ img {
     display: grid;
     grid-gap: 50px;
     
+    
    
 }
 
@@ -81,6 +82,7 @@ img {
     color: black;
     border-top: 10px solid red;
     border-bottom: 10px solid red;
+    
     
 
 }
@@ -150,6 +152,25 @@ img {
     
   }
 
+  footer {
+    padding-top: 100px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > p {
+    display: flex;
+    -webkit-box-flex: flex;
+    color: white;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
   @media (max-width:700px) {
     
 .navigation a {
@@ -212,6 +233,8 @@ body {
             grid-template-columns: 300px;
             padding-top: 0px;
             padding-bottom: 10px;
+            margin-left: 0px;
+            margin-right: 100px;
             
         }
         
@@ -219,14 +242,29 @@ body {
             grid-template-columns: 300px;
             padding-top: 40px;
             padding-bottom: 10px;
+            margin-left: 0px;
+            margin-right: 100px;
             
         }
         .discover3 {
             grid-template-columns: 300px;
             padding-top: 40px;
             padding-bottom: 10px;
+            margin-left: 0px;
+            margin-right: 100px;
             
         }
+
+        .discover4 {
+            grid-template-columns: 300px;
+            padding-top: 40px;
+            padding-bottom: 10px;
+            margin-left: 0px;
+            margin-right: 100px;
+            
+        }
+
+        
 
         
      
