@@ -76,7 +76,7 @@ img {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url(photoOne.jpeg);
+  background: url(ho_images/photoOne.jpeg);
   background-size: cover;
   background-position: center;
   padding: 48px;
@@ -180,8 +180,8 @@ footer {
   
 
    .boxes {
-     margin-left: 15px;
-     margin-right: 15px;
+     margin-left: 25px;
+     margin-right: 25px;
    }
 
    .rectangles > h2 {
